@@ -84,7 +84,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 header h1 {
   padding-left: 60px;
@@ -94,7 +94,7 @@ header h1 {
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: auto;
   grid-template-areas: 
-  ". . . . about contact";
+  ". . . home about contact";
   padding-right: 60px;
 }
 .primary-nav li {
@@ -105,6 +105,10 @@ header h1 {
 }
 .li-contact {
   grid-area: contact;
+}
+.li-home {
+  grid-area: home;
+  padding-right: 20px;
 }
 
 /*
