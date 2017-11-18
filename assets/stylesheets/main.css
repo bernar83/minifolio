@@ -70,15 +70,6 @@ footer,
 
 /*
   ========================================
-  REMOVE AFTER STYLING OTHERS
-  ========================================
-*/
-img {
-  width: 700px;
-}
-
-/*
-  ========================================
   Header
   ========================================
 */
@@ -134,5 +125,20 @@ header h1 {
 */
 .description p {
   padding: 100px;
+}
+
+/*
+  ========================================
+  Projects
+  ========================================
+*/
+.project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 1px;
+}
+.project-wrapper img {
+  width: 100%;
 }
 
