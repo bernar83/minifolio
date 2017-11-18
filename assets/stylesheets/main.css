@@ -61,9 +61,11 @@ table {
 header,
 main,
 footer,
+.description,
 .banner,
 .hire {
   grid-column: 1 / 2;
+  text-align: center;
 }
 
 /*
@@ -88,6 +90,7 @@ header {
 }
 header h1 {
   padding-left: 60px;
+  text-align: left;
 }
 .primary-nav ul {
   display: grid;
@@ -118,7 +121,7 @@ header h1 {
 */
 .banner {
   padding: 200px 300px 300px 300px;
-  text-align: center;
+  
 }
 .banner h1 {
   padding-bottom: 40px;
@@ -131,5 +134,5 @@ header h1 {
 */
 .description p {
   padding: 100px;
-  text-align: center;
 }
+
