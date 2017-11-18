@@ -116,3 +116,10 @@ header h1 {
   Banner
   ========================================
 */
+.banner {
+  padding: 200px 300px 300px 300px;
+  text-align: center;
+}
+.banner h1 {
+  padding-bottom: 40px;
+}
