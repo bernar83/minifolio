@@ -194,3 +194,21 @@ footer {
   padding-top: 10px;
   padding-bottom: 40px;
 }
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  flex-basis: 50px;
+}
+footer nav,
+footer p {
+  padding-bottom: 10px;
+}
+
