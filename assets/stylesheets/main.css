@@ -127,10 +127,12 @@ header h1 {
 
 /*
   ========================================
-  Description
+  Spacing
   ========================================
 */
-.description p {
+.description,
+.hire,
+footer {
   padding: 100px;
 }
 
@@ -182,3 +184,13 @@ header h1 {
 .img-wrapper:hover p {
   transform: translateY(0);
 } 
+
+/*
+  ========================================
+  Hire Me
+  ========================================
+*/
+.hire p {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
