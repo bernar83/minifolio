@@ -77,6 +77,90 @@ footer,
 
 /*
   ========================================
+  Background
+  ========================================
+*/
+.banner-background {
+  background-color: rgb(101, 52, 156);
+}
+.hire {
+  background-color: #fafafa; 
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+	color: #6c7279;
+}
+.banner h1,
+.banner-alt h1 {
+  color: #fff;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+}
+.banner p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 24px;
+}
+header h1 a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+}
+.primary-nav a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.description p {
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 400;
+}
+.hire h3 {
+  color: rgb(45, 48, 51);
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hire p {
+  color: rgb(45, 48, 51);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+footer small {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  color: #7f7f7f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+footer .fa-heart {
+  color: #e84545;
+  font-size: 11px;
+}
+
+/*
+  ========================================
   Header
   ========================================
 */
@@ -92,24 +176,49 @@ header h1 {
 }
 .primary-nav ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 100px);
   grid-auto-rows: auto;
   grid-template-areas: 
   ". . . home about contact";
+  grid-gap: 20px;
   padding-right: 60px;
-}
-.primary-nav li {
-  text-align: right;
 }
 .li-about {
   grid-area: about;
+  text-align: right;
 }
 .li-contact {
   grid-area: contact;
+  text-align: left;
 }
 .li-home {
   grid-area: home;
-  padding-right: 20px;
+  text-align: right;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn {
+  background-color: rgb(59, 196, 146);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 2px;
+  padding: 15px 40px;
+}
+.btn:hover {
+  background-color: #3d3d3d;
+	color: #fff;
 }
 
 /*
@@ -239,10 +348,8 @@ fieldset div {
   Hire Me
   ========================================
 */
-.hire p {
-  padding-top: 10px;
-  padding-bottom: 40px;
-}
+
+  
 
 /*
   ========================================
@@ -260,4 +367,18 @@ footer nav,
 footer p {
   padding-bottom: 10px;
 }
-
+footer small {
+  font-size: 11px;
+}
+footer ul a {
+  color: #ffffff;
+  background: #3d3d3d;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+footer small a {
+  color: #7f7f7f;
+}
+footer small a:hover {
+  color: #e84545;
+}
