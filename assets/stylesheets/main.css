@@ -149,6 +149,12 @@ a {
   line-height: 33px;
   font-weight: 400;
 }
+.contact p {
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 400;
+}
 .hire h3 {
   color: rgb(45, 48, 51);
   font-family: Roboto, sans-serif;
