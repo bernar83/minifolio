@@ -226,6 +226,7 @@ header h1 {
 .btn {
   background-color: rgb(59, 196, 146);
   color: rgb(255, 255, 255);
+  cursor: pointer;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 5px;
@@ -361,8 +362,28 @@ fieldset div {
   flex-direction: column;
   align-items: center;
 }
-.contact {
-  padding-bottom: 100px;
+fieldset input {
+  color: rgb(121, 121, 121);
+  font-style: normal;
+  font-size: 15px;
+  background: rgb(250, 250, 250);
+  padding: 15px 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(244, 243, 243);
+  width: 400px;
+}
+fieldset textarea {
+  color: rgb(121, 121, 121);
+  height: 300px;
+  font-size: 15px;
+  background: rgb(250, 250, 250);
+  padding: 15px 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(244, 243, 243);
+  resize: none;
+  width: 400px;
 }
 
 /*
