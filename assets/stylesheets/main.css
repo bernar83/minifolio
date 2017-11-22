@@ -133,6 +133,22 @@ a {
   line-height: 33px;
   font-weight: 400;
 }
+.about h3 {
+  color: rgb(61, 61, 61);
+  font-size: 23px;
+  font-weight: 700;
+}
+.about p:first-of-type {
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  font-weight: 400;
+}
+.about p:last-of-type {
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 400;
+}
 .hire h3 {
   color: rgb(45, 48, 51);
   font-family: Roboto, sans-serif;
