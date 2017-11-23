@@ -291,6 +291,16 @@ footer {
 .img-wrapper {
   position: relative;
 }
+.img-description-layer h5 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-description-layer p {
+  font-size: 14px;
+  line-height: 22px;
+}
 .img-description-layer {
   position: absolute;
   top: 0;
