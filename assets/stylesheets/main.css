@@ -250,7 +250,7 @@ header h1 {
   ========================================
 */
 .banner {
-  padding: 200px 300px 300px 300px;
+  padding: 200px 0 300px 0;
   
 }
 .banner h1 {
@@ -434,6 +434,22 @@ footer small a:hover {
   ========================================
 */
 
+@media (max-width: 1245px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1010px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 10px;
+  }
+}
 @media (max-width: 900px) {
   header {
     grid-template-columns: 1fr;
