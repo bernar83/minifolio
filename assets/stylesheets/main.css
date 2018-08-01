@@ -427,3 +427,41 @@ footer small a {
 footer small a:hover {
   color: #e84545;
 }
+
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+
+@media (max-width: 900px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+  header h1 {
+    padding: 0;
+    text-align: center;
+  }
+  .primary-nav {
+    margin-top: 20px;
+  }
+  .primary-nav ul {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "home"
+    "about"
+    "contact";
+    padding: 0;
+  }
+  .li-home {
+    text-align: center
+  }
+  .li-about {
+    text-align: center
+  }
+  .li-contact {
+    text-align: center
+  }
+}
