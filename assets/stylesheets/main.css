@@ -450,6 +450,11 @@ footer small a:hover {
     font-size: 10px;
   }
 }
+@media (max-width: 960px) {
+  .about p:last-of-type {
+    padding: 0 150px;
+  }
+}
 @media (max-width: 900px) {
   header {
     grid-template-columns: 1fr;
