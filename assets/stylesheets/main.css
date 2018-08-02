@@ -351,7 +351,8 @@ footer {
 }
 .about p:last-of-type {
   text-align: justify;
-  padding: 0 250px;
+  width: 80%;
+  margin: auto;
 }
 
 /*
@@ -454,11 +455,6 @@ footer small a:hover {
   }
   .banner-alt h1 {
     font-size: 40px;
-  }
-}
-@media (max-width: 960px) {
-  .about p:last-of-type {
-    padding: 0 150px;
   }
 }
 @media (max-width: 900px) {
